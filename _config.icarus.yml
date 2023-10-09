@@ -171,7 +171,7 @@ search:
 comment:
     type: utterances
     repo: elevenzqx/elevenzqx.github.io
-    issue_term: pathname        # 必填项，与issue_number二选一填写
+    issue_term: title        # 必填项，与issue_number二选一填写
     issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
     label: blogcomment     # 可选填
     theme: github-light         # 可选填
