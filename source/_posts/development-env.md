@@ -7,6 +7,7 @@ categories:
 - 后台
 tags:
 - git
+date: 2023-09-06 18:30:00
 ---
 
 ## SSH名密登陆

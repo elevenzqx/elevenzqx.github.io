@@ -169,21 +169,12 @@ search:
 #     # Disqus shortname
 #     shortname: ''
 comment:
-    type: gitalk
-    client_id: c5e497602e13e5fe015a
-    client_secret: 67bf323d3d2c9b3d30fcf862d75fee1b18a07462
-    repo: https://github.com/elevenzqx/elevenzqx.github.io
-    owner: elevenzqx
-    admin:
-        - elevenzqx
-    per_page: 20                    # 可选填
-    distraction_free_mode: false    # 可选填
-    pager_direction: last           # 可选填
-    create_issue_manually: false    # 可选填
-    proxy:                          # 可选填
-    flip_move_options:              # 可选填
-    enable_hotkey: true             # 可选填
-    language: zh-CN                 # 可选填
+    type: utterances
+    repo: elevenzqx/elevenzqx.github.io
+    issue_term: pathname        # 必填项，与issue_number二选一填写
+    issue_number: 100           # 必填项，与issue_term二选一填写，每篇文章对应一个issue，填写前需要手动创建issue
+    label: blogcomment     # 可选填
+    theme: github-light         # 可选填
 
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
