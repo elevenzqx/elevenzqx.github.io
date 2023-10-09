@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: hexo使用手册
 cover: https://cdn.pixabay.com/photo/2023/09/22/11/10/lisbon-8268841_1280.jpg
 categories: 
 - 应用
