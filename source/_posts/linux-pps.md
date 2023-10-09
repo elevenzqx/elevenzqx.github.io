@@ -7,7 +7,7 @@ tags:
   - 网络
 date: 2020-04-31 22:07:23
 cover: https://cdn.pixabay.com/photo/2023/09/25/07/37/eagle-owl-8274405_1280.jpg
-thumbnail: https://images.pexels.com/photos/17093201/pexels-photo-17093201.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load
+thumbnail: https://cdn.pixabay.com/photo/2023/09/25/07/37/eagle-owl-8274405_1280.jpg
 ---
 
 网络设备的转发性能以“包转发性能”来表示，即设备在单位时间内能够处理多少个“包”，这决定了设备转发能力的强弱。 
