@@ -8,7 +8,7 @@ tags:
 date: 2024-02-02 18:30:43
 ---
 
-当一台服务器拥有公网IP，或者域名解析的时候（这个可以使用ddns进行配置），我们其他的服务器上面的服务也想映射出来，那么我们可以选择重新获取一个公网IP或者域名解析，但是这种方法会增加我们的消费，下面我们使用ssh来实现端口映射，从而实现其他服务器上的服务也能实现外网访问的操作
+Git SSH 可以让开发时直接免密提交代码，如果配置 SSH 及用户账号和 email 信息是非常重要的，因为这些配置可以快速提交代码并标识你在 Git 仓库中所做的提交。以下是配置的步骤：
 
 <!--more-->
 
@@ -31,7 +31,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 ### 查看SSH公钥
 
-在Terminal终端中，输入
+在 Terminal 终端中，输入
 
 ```
 cat ~/.ssh/id_rsa.pub
@@ -41,7 +41,7 @@ cat ~/.ssh/id_rsa.pub
 
 ### 添加SSH公钥到Git服务器
 
-登录你的Git服务器账户（例如GitHub、GitLab等），找到SSH公钥的设置选项，将上一步查看到的SSH公钥内容粘贴进去，并保存。
+登录你的Git服务器账户（例如 GitHub、GitLab等），找到 SSH 公钥的设置选项，将上一步查看到的 SSH 公钥内容粘贴进去，并保存。
 
 ```
 Github地址: https://github.com/settings/keys
@@ -49,7 +49,7 @@ Github地址: https://github.com/settings/keys
 
 ### 配置 Email 信息
 
-在一些开源项目中，如果提交代码时，会要求有提交者的身份信息，这里需要为你的本地用户添加用户名与邮箱地址，故而有以下配置：
+在 Git 中配置用户账号和 email 信息是非常重要的，因为这些信息将用于标识你在 Git仓库中所做的提交。以下是配置 Git 账号和 email 的步骤：
 
 ```
 git config --global user.name "你的用户名"  
